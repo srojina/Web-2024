@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <style>
+      .product{
+        border: 1px solid;
+        width: 200px;
+        position: relative;
+      }
+
+      .product img{
+        width: 100;
+      }
+
+    .product button{
+       position: absolute;
+       bottom: 0px;
+       left: 0;
+       right: 0;
+       margin: 0 auto;
+    }
+
+
+    .parent{
+        width: 600px;
+        height: 300px;
+        background-color: teal;
+        display: flex;
+        gap: 16px;
+    }
+
+    .children{
+        height: 100px;
+        width: 100px;
+        border: 1px solid;
+        color: white;
+        padding: 16px;
+
+
+    }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="chair.png">
+        <button>view details</button>
+    </div>
+    
+ <h1>Flex</h1>
+
+ <div class="parent">
+    <div class="children">children-1</div>
+    <div class="children">children-2</div>
+    <div class="children">children-3</div>
+ </div>
+</body>
+</html>

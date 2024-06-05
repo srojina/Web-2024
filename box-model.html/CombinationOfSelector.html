@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined selector</title>
+    <style>
+         a{
+            color:inherit;
+            text-decoration: none;
+        }
+        .active{
+            color:red;
+            font-weight: bold;
+        }
+         .card{
+            background-color: white;
+            width:350px;
+            margin-top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid gainsboro;
+            border-radius: 10px;
+            padding: 8px;
+        } 
+              /* descent selector */
+        div img{
+             width: 250 px; 
+        }
+
+        .card img{
+            width: 250px;
+        }
+
+        .card-image{
+         width: 250 px;
+        }
+
+        .users li{
+            color: gray;
+        }
+          /*and selector  */
+        li.active{
+            color:black;
+
+        } 
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="Home">Home</a>
+        <a href="contact">Contact</a>
+        <a href="About">AboutUs</a>
+        <a href="" class="active">combined selector</a>
+    </header>
+    <h1>Combined Selector & Specificity Score</h1>
+    <div class="card">
+        <image class= "" src="nature.jpg"></image>
+           
+        <div class="card-body">
+            <div class="tags">
+                <p class="tag">Nature</p>
+                <p class="tag">Lake</p>
+            </div>
+            
+           
+            <h1 class="rara">RARA LAKE</h1>
+           
+            <p>Rara Lake, also known as Mahendra Lake, is the largest freshwater lake in the Nepalese Himalayas, located in Jumla and Mugu Districts of Karnali Province.Rara Lake, nestled in the heart of the Nepalese Himalayas, is a breathtaking natural wonder that captivates all who visit. </p>
+   
+            <a href="./readmore.html">Read more..</a>
+             
+            <div class="">
+                <image src="natural flower.jpeg"></image>
+                <p>A flower, also known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae).</p>
+            </div>
+        </div> 
+    </div>
+
+
+<hr>
+            <h2>Users</h2>
+        <ul class="users" id="users">
+            <li class="active">Hardik</li>
+            <li class="active">Aayusha</li>
+            <li>Sagar</li>
+            <li>Rojina</li>
+            <li>Sujana</li>
+            <li>Rochak</li>
+            </ul>
+
+            <h3>specificity score</h3>
+          </body>
+</html>

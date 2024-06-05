@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>score</title>
+    <Style>
+
+    
+    html body h1.main.italic#new{
+        text-align: center;
+    }
+
+     html body h1.main#new{
+        text-align: left;
+
+     }
+
+        .italic{
+            font-style: italic;
+        }
+        
+        body h1.main#new{
+            text-align: center;
+        }
+
+        body .main#new{
+            text-align: left;
+        } 
+        
+        #new{
+            text-align: left;
+        }
+
+        /* o 1 2 */
+        body h1.main{
+            text-align: center;
+        }
+
+           /* 0 1 1 */
+        body .main{
+            text-align: left;
+        }
+
+        /* id class tag */
+        /* 0 1 0 */
+         .main{
+         text-align: center;
+        }
+
+        /* 0 0 2 */
+        body h1{
+            text-align: left;
+        }
+
+        /* 0 0 1 */
+        h1{
+            text-align: left;
+        }
+
+        
+    </Style>
+</head>
+<body>
+    <h1 class="main italic" id="new">Specificity Score</h1>
+    <pre>tag < class < id</pre>
+</body>
+</html>
